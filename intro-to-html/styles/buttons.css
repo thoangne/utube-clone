@@ -1,0 +1,35 @@
+.button1{
+    background-color: rgb(255, 216, 20);
+    cursor: pointer;
+    height: 36px;
+    width: 105px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.button1:hover{
+    opacity: 0.9;
+}
+.button1:active{
+    opacity: 0.4;
+}
+.button2{
+    background-color: rgb(255, 164, 28);
+    cursor: pointer;
+    height: 36px;
+    width: 72px;
+    border-radius: 20px;
+    border: none;   
+    margin-bottom: 10px;
+
+}
+.button2:hover{
+    opacity: 0.9;
+}
+.button2:active{
+    opacity: 0.4;
+}
+.amazon:hover{
+    color: yellow;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SALE</title>
+        <style>
+            body{
+                height: 3000px !important;
+            }
+            .product-container{
+                position: relative !important;
+                display: inline-block;
+            }
+            .product-image{
+                width: 300px;
+                height: 300px !important;   
+                object-fit: cover;
+            }
+            .promotion{
+                position: absolute !important;
+                top: 10px;
+                right: 0px;
+                background-color: black !important;
+                color: white;
+                font-family: arial;
+                padding: 8px 12px 8px 12px;
+
+            }
+            .bottom-overlay{
+                position: absolute !important;  
+                bottom:0px;
+                left:0;
+                right: 0;
+                height: 80px;
+                background-color: rgba(255,255,255,0.8);
+                display: flex !important;
+                justify-content: center;
+                align-items: center;
+            }
+            .add-to-cart-button{
+                background-color: white;
+                border-width: 1px;
+                border-style: solid;
+                border-color: black;
+                padding: 10px 15px 10px 15px ;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="product-container">
+            <img class="product-image" src="../../imag/thao4.jpg">
+            <div class="promotion">20% OFF</div>
+            <div class="bottom-overlay">
+                <button class="add-to-cart-button">
+                    Add to cart
+                </button >
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+.style-cat{
+    width: 200px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.style-cat1{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 20px;
+}
+.style-cat2{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: center;
+}

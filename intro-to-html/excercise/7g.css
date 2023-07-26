@@ -1,0 +1,27 @@
+.cat-style{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    object-fit: cover;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.text-box{
+    font-size: 18px;
+    border:none;
+    width: 300px;
+    vertical-align: middle;
+}
+.text-box:active{
+    border: none;
+}
+.tweet-button{
+    background-color: rgb(29,155,240);
+    color:white;
+    border: none;
+    padding: 8px 16px 8px 16px;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: middle;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+                body{
+                    height: 3000px !important;
+                }
+                .right-sidebar{
+                    background-color: green;
+                    color:white !important;
+                    position: fixed !important;
+                    right: 0;
+                    top:0;
+                    bottom: 0;
+                    width: 100px;
+                }
+                .overlay{
+                    background-color: rgba(0,0,0,0.5);
+                    position: fixed;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    display: flex !important;
+                    justify-content: center !important;
+                    align-items: center !important;
+                }
+                .modal{
+                    background-color: white;
+                    width: 300px;
+                    padding: 15px 15px 15px 15px !important;
+                    border-radius: 5px;
+                }
+                .modal-title{
+                     font-family: Arial, Helvetica, sans-serif;
+                     font-weight: bold;
+                     font-size: 24px;
+                     margin-bottom: 12px;
+                }
+                .modal-content{
+                    font-family: Arial, Helvetica, sans-serif;
+                    margin-bottom: 12px;
+                }
+        </style>
+    </head>
+    <body>
+        <div class="right-sidebar">
+            right sidebar with
+        </div>
+
+        <div class="overlay">
+            <div class="modal">
+                <div class="modal-title">
+                    Modal Title
+                </div>
+                <div class="modal-content">
+                    This is a modal title
+                </div>
+                <button>
+                    close
+                </button>
+            </div>
+        </div>
+    </body>
+</html>

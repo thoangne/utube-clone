@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>11d</title>
+        <style>
+            p{
+                font-family: arial;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+            .grid{
+                display: grid !important;
+                grid-template-columns: 200px 200px 200px;
+                column-gap: 20px;
+                border: none;
+
+            }
+            .profile{
+                width: 200px;
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+                vertical-align: top !important;
+                margin-right: 15px !important;
+            }
+            .profile-picture{
+                width: 200px;
+                height: 200px;
+                object-fit: cover !important;
+                margin-bottom: 12px;
+            }
+            .name{
+                font-size: 18px;
+                font-weight: bold;
+                margin-left: 8px !important;
+                margin-bottom: 5px;
+
+            }
+            .mutual-friend-row{
+                display: grid !important;
+                grid-template-columns: 35px 1fr;
+                align-items: center !important;
+                margin-left: 8px;
+                margin-bottom: 10px;
+            }
+            .avt-friend{
+                height: 28px;
+                width: 28px;
+                object-fit: cover !important;
+                border-radius: 14px !important;
+                vertical-align: middle !important;
+                margin-right: 4px !important;
+            }
+            .mutual-friend{
+                color: rbg(100,100,100);
+            }
+            .add-friend-button{
+                background-color: rgb(30, 30, 229) !important;
+                color: white !important;
+                border: none;
+                padding: 10px 20px 10px 20px;
+                border-radius: 4px;
+                font-size: 16px;
+                margin-left: 8px;
+                margin-bottom: 10px;
+                cursor: pointer !important;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="grid">
+            <div class="profile">
+                <img class="profile-picture" src="../../imag/thao1.jpg">
+                <p class="name">
+                    Thảo sẹo 
+                </p>
+                <div class="mutual-friend-row">
+                    <img class="avt-friend" src="../../imag/cat.jpg" >
+                    <p class="mutual-friend">
+                        2 mutual friends
+                    </p>
+                </div>
+                <button class="add-friend-button">
+                    Add friend 
+                </button>
+            </div>
+            <div class="profile">
+                <img class="profile-picture" src="../../imag/thao1.jpg">
+                <p class="name">
+                    Thảo sẹo 
+                </p>
+                <div class="mutual-friend-row">
+                    <img class="avt-friend" src="../../imag/cat.jpg" >
+                    <p class="mutual-friend">
+                        2 mutual friends
+                    </p>
+                </div>
+                <button class="add-friend-button">
+                    Add friend 
+                </button>
+            </div>
+            <div class="profile">
+                <img class="profile-picture" src="../../imag/thao1.jpg">
+                <p class="name">
+                    Thảo sẹo 
+                </p>
+                <div class="mutual-friend-row">
+                    <img class="avt-friend" src="../../imag/cat.jpg" >
+                    <p class="mutual-friend">
+                        2 mutual friends
+                    </p>
+                </div>
+                <button class="add-friend-button">
+                    Add friend 
+                </button>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+.video-title {
+    font-family: Roboto, sans-serif;      font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    width: 300px;
+    line-height: auto;
+    margin-bottom: 5px;
+}
+.video-stats{
+    font-family: Roboto, sans-serif;
+        font-size: 14px;
+    color: gray !important;
+    font-style: italic !important;
+    margin-top: 100px;
+}
+.Thaohaycoc{
+    margin-bottom: 50px !important;
+    font-size: 30px !important;
+    background-color: rgb(227,65,64);
+    color:white !important;
+    text-align: center !important;
+    padding-top: 10px;
+    padding-bottom: 18px;
+
+}
+.shop-link{
+    cursor:pointer;
+    margin-left: 10px !important;
+}
+.shop-link:hover{
+    text-decoration: underline;
+}
